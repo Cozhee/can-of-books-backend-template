@@ -1,21 +1,41 @@
-# Start your own "Can of Books" App
+Brady Davenport
 
-This repository has starter code to begin work on creating your own online bookshelf.
+# Can of Books
 
-## What can books do?
+**Authors**: Brady Davenport, Cody Davis
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Overview
 
-What hours will you be available to communicate? **10am-7pm**
-What platform will you use to communicate (ie. Slack, phone …)? **Slack and Remo**
-How often will you take breaks? **As needed.**
-What is your plan if you start to fall behind? **Falling behind is not an option!**
+## Collaboration agreement
 
-Make a list of each parson’s strengths. **Good at problem-solving, organization and cool under pressure.**
-How can you best utilize these strengths in the development of your application? **These set of skills will help the group stay focused and achieve our goals.**
-In what areas do you each want to develop greater strength? **I would want myself to be more efficient at problem-solving.**
-Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development? **Explaining any line of code of fundamental that a group member may not understand.**
+### Logistical
 
-What will your team do if one person is pulling all the weight while the other person is not contributing? **We will make sure that each person is understanding how the project is coming to life even if someone who is not coding as much does not understand how things are being built.**
-What will your team do if one person is taking over the project and not letting the other member contribute? ****
-How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
+Hours of communication: regular school work hours (10am - 7pm)
+
+Platforms of communication: Slack, Remo
+
+Breaks: once every hour with an hour lunch
+
+Plan for falling behind: add time to work day as needed, re-work implementation plan
+
+### Cooperative
+
+Brady's strengths: problem-solving, organization, staying calm under pressure
+
+Cody's strengths: perseverance, organization, not getting frustrated
+
+Utilizing strengths: This project is a problem to solve, and by having a 'no-quit' mentality we will work to overcome challenges and complete the project
+
+* Areas for developing greater strength
+    * Brady - knowledge of content, technical excellence, teamwork
+    * Cody - better modularization
+
+Approach to day-to-day development - if a team member feels lost or behind, the other team member will help them to understand what is being done and why before and during development of a particular feature
+
+### Conflict resolution
+
+* If one team member is pulling all the weight: that team member will let the other know they feel as is if the other is not contributing as much and they need help, for the good of the team
+
+* If one person is taking over: the other person will let them know they feel like they are not contributing as much and they would like to pull their own weight on the team
+
+* Collaborating on an app with differing skill levels: team members will ask others if they understand what is going on, and if not offer to explain the concept deeper so that both members are on the same page with what is going on
