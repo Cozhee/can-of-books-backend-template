@@ -10,6 +10,7 @@ app.use(express.json())
 const PORT = process.env.PORT || 3001;
 const createBook = require('./modules/createBook.js')
 const getBook = require('./modules/getBook.js')
+const deleteBook = require('./modules/deleteBook.js')
 
 mongoose.connect(process.env.DB_URL);
 
@@ -25,5 +26,8 @@ app.get('/books', getBook)
 
 // Creates a book on the mongoDB
 app.post('/books', createBook)
+
+// Deletes a book based on the id of the object
+app.delete('/books/:id', deleteBook)
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
