@@ -6,10 +6,10 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 app.use(cors());
-
-const Book = require('./models/book.js')
-
+app.use(express.json())
 const PORT = process.env.PORT || 3001;
+const createBook = require('./modules/createBook.js')
+const getBook = require('./modules/getBook.js')
 
 mongoose.connect(process.env.DB_URL);
 
@@ -20,22 +20,10 @@ db.once('open', function () {
   console.log('Mongoose is connected');
 });
 
-app.get('/test', (request, response) => {
+// Gets a book based on title
+app.get('/books', getBook)
 
-  response.send('test request received')
-
-})
-
-app.get('/books', async(req, res) => {
-  const filterQuery = {}
-
-  if (req.query.title) {
-    filterQuery.title = req.query.title
-  }
-
-  const books = await Book.find(filterQuery)
-
-  res.send(books)
-})
+// Creates a book on the mongoDB
+app.post('/books', createBook)
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
