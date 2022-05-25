@@ -6,7 +6,7 @@ async function getBook(req, res) {
         filterQuery.title = req.query.title
     }
     const books = await Book.find(filterQuery)
-    res.send(books)
+    res.status(200).send(books)
 }
 
 module.exports = getBook
