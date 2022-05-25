@@ -39,3 +39,36 @@ Approach to day-to-day development - if a team member feels lost or behind, the 
 * If one person is taking over: the other person will let them know they feel like they are not contributing as much and they would like to pull their own weight on the team
 
 * Collaborating on an app with differing skill levels: team members will ask others if they understand what is going on, and if not offer to explain the concept deeper so that both members are on the same page with what is going on
+
+
+Name of feature: Added get request
+
+Estimate of time needed to complete: 10minutes
+
+Start time: 1:23
+
+Finish time: 1:35
+
+Actual time needed to complete: 12minutes
+
+
+Name of feature: Added post request
+
+Estimate of time needed to complete: 10minutes
+
+Start time: 1:15
+
+Finish time: 1:26
+
+Actual time needed to complete: 11minutes
+
+
+Name of feature: Added delete request
+
+Estimate of time needed to complete: 10minutes
+
+Start time: 1:36
+
+Finish time: 2:01
+
+Actual time needed to complete: 25minutes
