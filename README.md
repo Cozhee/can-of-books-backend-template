@@ -72,3 +72,14 @@ Start time: 1:36
 Finish time: 2:01
 
 Actual time needed to complete: 25minutes
+
+
+Name of feature: Added put request
+
+Estimate of time needed to complete: 15minutes
+
+Start time: 2:01
+
+Finish time: 2:23
+
+Actual time needed to complete: 22minutes
